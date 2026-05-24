@@ -1,0 +1,7 @@
+cg_data/wa_session/
+cg_logs/
+__pycache__/
+*.pyc
+.env
+nova_teach_crm.db
+community_dashboard.html
