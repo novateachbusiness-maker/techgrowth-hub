@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python techgrowth_hub.py"
+restartPolicyType = "always"
+restartPolicyMaxRetries = 10
+
+[environments.production.variables]
+PORT = "8000"
